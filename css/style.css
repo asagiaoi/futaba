@@ -1,0 +1,130 @@
+.Display{
+  width: 100%;
+  margin: 0 auto;
+}
+.Area{
+  padding: 0px;
+  background-color: white;
+  font-family: "Noto serif JP";
+  font-size: 25px;
+  margin: 0 auto;
+}
+
+.Main{
+  width: 1080px;
+  height: 530px;
+  padding: 0px;
+  margin: 0 auto;
+}
+
+.P1{
+  height: 100%;
+  color: #708090;
+  padding-top: 100px;
+  margin: 0 auto;
+  animation-name: fade;
+  animation-duration: 1.0s;
+  text-shadow:0 0 0.7px #191970;
+}
+
+.boyake{
+  height: 100%;
+  color: #708090;
+  padding-top: 100px;
+  margin: 0 auto;
+  animation-name: boyake;
+  animation-duration: 2.0s;
+  text-shadow:0 0 0.7px #191970;
+}
+
+
+.kurayami{
+  height: 100%;
+  color: #708090;
+  padding-top: 100px;
+  margin: 0 auto;
+  animation-name: kurayami;
+  animation-duration: 2.0s;
+  text-shadow:0 0 0.7px #191970;
+}
+
+.kinki{
+  height: 100%;
+  color: red;
+  padding-top: 100px;
+  margin: 0 auto;
+  animation-name: kinki;
+  animation-duration: 2.0s;
+  text-shadow:0 0 0.7px #191970;
+}
+
+@keyframes fade{
+  0%{
+    opacity: 0;
+  }
+  80%{
+    text-shadow:0 0 0.8px #191970;
+  }
+  100%{
+    opacity: 1;
+    text-shadow:0 0 0.7px #191970;
+  }
+}
+
+@keyframes boyake{
+  0%{
+    opacity: 0;
+    text-shadow:0 0 0.1px #191970;
+  }
+  20%{
+    opacity: 0.2;
+  }
+  40%{
+    opacity: 0;
+    text-shadow:0 0 1px #191970;
+  }
+  60%{
+    opacity: 0.5;
+  }
+  80%{
+    text-shadow:0 0 1.3px #191970;
+  }
+  100%{
+    opacity: 1;
+    text-shadow:0 0 0.7px #191970;
+  }
+}
+
+
+@keyframes kurayami{
+  0%{
+    opacity: 0;
+    background-color: white;
+    color: #708090;
+  }
+  80%{
+    background-color: black;
+    color: white;
+  }
+  100%{
+    opacity: 1;
+    background-color: white;
+    color: #708090;
+  }
+}
+
+@keyframes kinki{
+  0%{
+    opacity: 0;
+    color: #708090;
+  }
+  30%{
+    color: black;
+  }
+  95%{
+    color: red;
+  }
+  100%{
+    opacity: 1;
+  }
+}
